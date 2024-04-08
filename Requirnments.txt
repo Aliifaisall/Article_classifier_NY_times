@@ -1,0 +1,29 @@
+Libraries I used for this project:
+
+gradio: Imported as gr for building interfaces.
+json: Imported for working with JSON files.
+os: Imported for interacting with the operating system.
+numpy as np: Imported for numerical computing.
+PIL.Image: Imported from the Python Imaging Library for image processing.
+sklearn.feature_extraction.text.TfidfVectorizer: Imported for TF-IDF vectorization from scikit-learn.
+sklearn.ensemble.RandomForestClassifier: Imported from scikit-learn for RandomForest classification.
+sklearn.model_selection.train_test_split: Imported for splitting data into training and testing sets.
+sklearn.model_selection.cross_val_score: Imported for cross-validation.
+sklearn.metrics.accuracy_score: Imported for evaluating model accuracy.
+summa.summarizer: Imported for generating text summaries using Summa.
+nltk: Imported for natural language processing tasks.
+nltk.corpus.stopwords: Imported for accessing stopwords from NLTK.
+nltk.tokenize.word_tokenize: Imported for tokenization using NLTK.
+nltk.stem.WordNetLemmatizer: Imported for lemmatization using NLTK.
+string: Imported for string operations.
+
+
+My requirnments:
+The New York Times, an excellent source of news, has provided us with a unique dataset called N24News. This dataset contains 24 categories of news, each with a headline, abstract, article body, image, and image caption. Your challenge is to develop a machine learning model that can accurately categorize news articles into their respective categories, generate insightful abstracts, and captivating captions.
+
+
+Objective targets:
+1- The Basic (40 points):Develop a model that can categorize news articles into their respective categories.
+2- The Mastery (20 Bonus Points): Implement a real-time UI web app for inference where it allows the user to upload an article body, image, and a title, and then return its category, a caption, and an abstract (you could use tools such as Streamlit or Gradio).
+
+
